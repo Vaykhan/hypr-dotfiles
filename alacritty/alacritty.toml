@@ -1,0 +1,66 @@
+# ============================
+# Alacritty Minimal Config
+# ============================
+
+# --- Window settings ---
+[window]
+dimensions = { columns = 0, lines = 0 }
+padding = { x = 6, y = 6 }
+opacity = 0.90
+
+# --- Font settings ---
+[font]
+size = 11.0
+offset = { x = 0, y = 1 }
+glyph_offset = { x = 1, y = 1 }
+
+# Specify font families (font type)
+[font.normal]
+family = "JetBrains Mono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono Nerd Font Mono"
+style = "Italic"
+
+# --- Scrolling ---
+[scrolling]
+history = 10000
+
+# --- Cursor ---
+[cursor]
+thickness = 0.15
+
+# --- Colors ---
+[colors.primary]
+background = "#1E1E1E"
+foreground = "#D4D4D4"
+
+[colors.normal]
+black   = "#1E1E1E"
+red     = "#F44747"
+green   = "#608B4E"
+yellow  = "#D7BA7D"
+blue    = "#569CD6"
+magenta = "#C586C0"
+cyan    = "#4EC9B0"
+white   = "#D4D4D4"
+
+[colors.bright]
+black   = "#3C3C3C"
+red     = "#F25F5F"
+green   = "#73C990"
+yellow  = "#FFD68A"
+blue    = "#79B8FF"
+magenta = "#D8A6E0"
+cyan    = "#5FE3CC"
+white   = "#FFFFFF"
+
+# --- Mouse ---
+[mouse]
+hide_when_typing = true
+
