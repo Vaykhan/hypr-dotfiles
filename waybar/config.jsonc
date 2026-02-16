@@ -73,10 +73,11 @@
     "tray": {
         // "icon-size": 21,
         "spacing": 10,
-        // "icons": {
+        "icons": {
         //   "blueman": "bluetooth",
         //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-        // }
+              "steam": "steam"    
+    }
     },
     "clock": {
         // "timezone": "America/New_York",
@@ -92,9 +93,9 @@
     },
     "battery": {
         "states": {
-             "good": 95,
-            "warning": 30,
-            "critical": 15
+             "good": 75,
+            "warning": 40,
+            "critical": 20
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
