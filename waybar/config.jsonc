@@ -19,6 +19,7 @@
         "keyboard-state",
         "battery",
         "clock",
+        "tray"
     ],
   /* "hyprland/workspaces": {
 	"format": "{icon}",
