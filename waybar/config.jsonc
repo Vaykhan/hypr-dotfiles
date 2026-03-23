@@ -82,7 +82,7 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-        "tooltip-format": "{:%Y-%m-%d}"
+        "tooltip-format": "{:%d-%m-%Y}"
     },
     "temperature": {
         "thermal-zone": 1,
