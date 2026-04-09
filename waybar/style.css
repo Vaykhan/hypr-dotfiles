@@ -1,20 +1,27 @@
 /* === GLOBAL SETTINGS === */
 * {
     font-family: JetBrains Mono Nerd Font Propo, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 /* === WAYBAR WINDOW === */
 window#waybar {
-    background-color: #121212;        /* solid, opaque background */
-    border-radius: 8px;               /* rounded corners */
+    /*background-color: #121212;         solid, opaque background 
+    border-radius: 8px;                rounded corners 
     border-bottom: 2px solid #383838; 
     margin: 6px 6px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.6);
     color: #e0e0e0;
-    transition: opacity 0.3s ease-in-out; /* only opacity to avoid flicker */
+    transition: opacity 0.3s ease-in-out;*/ 
+    background-color: #121212;
+    border-radius: 0px;   /* 🔥 remove rounding */
+    margin: 0;            /* 🔥 stick to screen edges */
+    border-bottom: 2px solid #383838;
+    box-shadow: none;     /* optional: removes floating effect */
 }
+/* only opacity to avoid flicker */
+
 
 /* === BUTTONS === */
 button {
